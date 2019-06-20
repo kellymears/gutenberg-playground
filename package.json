@@ -1,0 +1,36 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@wordpress/babel-preset-default": "^4.3.0",
+    "babel-plugin-inline-json-import": "^0.3.2",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "2.0.1",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.16",
+    "laravel-mix-pug": "^0.3.0",
+    "node-sass": "^4.12.0",
+    "pug": "^2.0.4",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^2.2.0",
+    "@wordpress/block-library": "^2.6.0",
+    "@wordpress/components": "^8.0.0",
+    "@wordpress/editor": "^9.4.0",
+    "@wordpress/element": "^2.5.0",
+    "@wordpress/format-library": "^1.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
