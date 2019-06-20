@@ -2,6 +2,8 @@
 
 This pretty much just isolates the `/playground/` directory of the official Gutenberg repository.
 
+Playground runs the Gutenberg editor without requiring a backend server or application to support it. In other words -- it's serverless Gutenberg and, turns out, serverless Gutenberg is a great environment to develop blocks in.
+
 ## Benefits
 
 - Play with Gutenberg without having to load WordPress.
@@ -9,9 +11,9 @@ This pretty much just isolates the `/playground/` directory of the official Gute
 
 ## Caveats
 
-There are some inconsistencies but for the most part it is a good way to scaffold some blocks. Examples: I've noticed that the styles aren't 100% in line with the true blue Gutenberg and that media upload support is mixed -- you can use "Insert from URL", but the `Media & Text` block and `Gallery` block don't support uploading at all.
+There are some inconsistencies. I've noticed that the styles aren't 100% in line with the true blue Gutenberg and that media upload support is mixed -- you can use "Insert from URL", but the `Media & Text` block and `Gallery` block don't support uploading at all.
 
-But the point of this is to make new blogs, so NBD, right?
+But the point of this is to make new blocks, so NBD, right?
 
 ## Install
 
