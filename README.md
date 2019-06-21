@@ -11,7 +11,7 @@ Playground runs the Gutenberg editor without requiring a backend server or appli
 
 ## Caveats
 
-There are some inconsistencies. I've noticed that the styles aren't 100% in line with the true blue Gutenberg and that media upload support is mixed -- you can use "Insert from URL", but the `Media & Text` block and `Gallery` block don't support uploading at all.
+There are some inconsistencies. I've noticed that the styles aren't 100% in line with the true blue Gutenberg and that media upload support is mixed; you can use `Insert from URL` on the image block, for example, but the `Media & Text` block and `Gallery` block don't support uploading at all.
 
 But the point of this is to make new blocks, so NBD, right?
 
