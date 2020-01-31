@@ -1,0 +1,28 @@
+{
+  "name": "block",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@tinypixelco/laravel-mix-wp-blocks": "^1.0.0",
+    "@wordpress/babel-preset-default": "^4.9.0",
+    "@wordpress/block-library": "^2.12.0",
+    "@wordpress/components": "^9.0.0",
+    "@wordpress/dependency-extraction-webpack-plugin": "^2.1.0",
+    "@wordpress/format-library": "^1.12.0",
+    "@wordpress/base-styles": "^1.2.0",
+    "cross-env": "^6.0.3",
+    "laravel-mix": "^5.0.1",
+    "node-sass": "^4.13.1",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^8.0.2"
+  }
+}
