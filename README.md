@@ -2,7 +2,7 @@
 
 liberating "playground" from the @wordpress/gutenberg lerna mines.
 
-these are just gutenberg editor experiments that can be run outside of wordpress. 
+these are just experiments that showcase stuff about the editor that isn't making a "repeater" or.. another card block.
 
 **Right now:**
 
